@@ -1,0 +1,124 @@
+body{
+    margin: auto;
+    padding:0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Main{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    width: 100vw;
+    background-color: lightgray;
+}
+.head{
+    background-image: linear-gradient(to right,blue,violet,pink);
+  height:15vh;
+  width:60vw;
+  color:black;
+  font-weight: bold;
+  margin-top: -21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 7px 7px 0px 0px;
+
+
+}
+.days{
+    background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+    height: 7vh;
+    width:60vw;
+    color:black;
+    font-weight: bold;
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+
+.dates{
+    display: flex;
+ 
+  flex-wrap: wrap;
+    height:59vh;
+    width:60vw;
+    background-image: linear-gradient(to right,rgb(167, 110, 5),green,blue);
+    color: black;
+    font-weight: bold;
+    border-radius: 0px 0px 7px 7px;
+    font-weight: 14px;
+
+
+}
+.container{
+    background-color: red;
+    height:77vh;
+    border-radius: 5px;
+    
+
+}
+.days div:hover{
+    background-color:gray;
+   
+}
+
+.prev:hover,.next:hover{
+    background-color: gray;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev,.next{
+    background-color: rgba(0, 0, 0 ,0.1);
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4;
+}
+
+.dates div{
+    width:11.3%;
+    background-color: rgba(0,0,0,0.1);
+    margin: 12px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+#prevdatee{
+    color:rosybrown
+ 
+}
+#datee{
+    color: whitesmoke;
+}
+.today1{
+    color:blanchedalmond;
+}
+
+.prevMonthsDate{
+    color: gray;
+}
+
+.title{
+    font-size: xx-large;
+    font-weight: bold;
+    /* background-image: linear-gradient(to right,rgb(167, 110, 5),red,yellow); */
+    color:black;
+    padding-bottom: 1rem;
+    margin: 2px;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="calender()">
+    <div class="Main">
+        <h1 class="title">Calender</h1>
+        <div class="container">
+
+            <div class="head">
+                <div class="prev" onclick="prevNext('prev');"><span>&#10094</span></div>
+                <div>
+                   <span> <h1 id="month">Month</h1><h3 id="year">2022</h3></span>
+                </div>
+                <div class="next" onclick="prevNext('next');"><span>&#10095</span></div>
+
+            </div>
+            <div class="days">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div class="dates">
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
