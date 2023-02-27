@@ -38,3 +38,14 @@ const prevNext = (para) => {
     calender();
 
 }
+
+const prevyear = (para) => {
+    if (para == 'prev') {
+        dt.setFullYear(dt.getFullYear() - 1);
+    }
+    else if (para == 'next') {
+        dt.setFullYear(dt.getFullYear() + 1);
+    }
+    calender();
+
+}

@@ -12,17 +12,21 @@
 
 <body onload="calender()">
     <div class="Main">
-        <h1 class="title">Calender</h1>
         <div class="container">
-
-            <div class="head">
-                <div class="prev" onclick="prevNext('prev');"><span>&#10094</span></div>
-                <div>
-                   <span> <h1 id="month">Month</h1><h3 id="year">2022</h3></span>
+            <div class="header">
+                <div class="header1">
+                    <button class="prev" onclick="prevNext('prev');"><span>&#10094  </span></button>
+                    <h3 class="h12">Select Month</h3>
+                    <button class="next" onclick="prevNext('next');"><span>  &#10095 </span></button>
+                  
                 </div>
-                <div class="next" onclick="prevNext('next');"><span>&#10095</span></div>
-
+                <div class="header2"> <span> <h1 id="month">Month</h1><h3 id="year">2022</h3></span></div>
+                <div class="header3"><button class="prev" onclick="prevyear('prev');"><span>&#10094</span></button>
+                <h3 class="h11"> select Year</h3></div>
+                <button class="next h" onclick="prevyear('next');"><span>&#10095</span></button>
+               
             </div>
+           
             <div class="days">
                 <div>Sun</div>
                 <div>Mon</div>
@@ -32,9 +36,10 @@
                 <div>Fri</div>
                 <div>Sat</div>
             </div>
+     
             <div class="dates">
                 
-            </div>
+            </div>   </div>
         </div>
 
     </div>
